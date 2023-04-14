@@ -1,0 +1,11 @@
+composer.lock
+text.txt
+apps/web/app/bin
+apps/web/app/config/Migrations
+apps/web/app/config/Seeds
+apps/web/app/logs
+apps/web/app/plugins
+apps/web/app/resources
+apps/web/app/tests
+apps/web/app/tmp
+vendor
