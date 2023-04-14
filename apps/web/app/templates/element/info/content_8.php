@@ -1,0 +1,1 @@
+<a class="blackBtn" href="<?= h($c['content']); ?>" target="<?= h($c['option_value2']); ?>"><span><?= h($c['title']); ?></span></a>
