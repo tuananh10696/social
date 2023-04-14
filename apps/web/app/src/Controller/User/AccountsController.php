@@ -24,7 +24,6 @@ class AccountsController extends AppController
 
             $this->modelName = 'Accounts';
             $entity = $this->fetchTable('Accounts')->newEntity($this->request->getData(), ['validate' => 'login']);
-
             
             if (empty($entity->getErrors())) {
                 $login = $this->Accounts->find('all')->where(['Accounts.login_id' => $data['login_id']])->first();
